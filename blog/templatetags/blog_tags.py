@@ -20,7 +20,7 @@ def snippet(value,arg=20):
 
 @register.inclusion_tag('blog/blog-latestpost.html')
 def latestposts(arg=3):
-    posts=Post1.objects.filter(status=1).order_by('published_date')[:arg]
+    posts=Post1.objects.filter(status=1).order_by('-published_date')[:arg]
     return {'posts':posts}
 
 @register.inclusion_tag('blog/blog-postCategories.html')

@@ -14,3 +14,9 @@ def blog_single(requests,pid):
 
 def test(requests):
     return render(requests,'test.html')
+
+def blog_category(requssts,cat_name):
+    posts=Post1.objects.filter(status=1)
+    posts=posts.filter(category__name=cat_name)
+    context={'posts':posts}
+    return render(requssts,'blog/blog-home.html',context)
