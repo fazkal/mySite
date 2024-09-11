@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'django_extensions',
     'website.apps.WebsiteConfig',
     'debug_toolbar',
+    'captcha',
     'robots',
     'blog'
 ]
