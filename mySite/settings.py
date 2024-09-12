@@ -55,7 +55,7 @@ SITE_ID=2
 
 #robots
 ROBOTS_USE_HOST=False
-
+'''
 UMMERNOTE_THEME='bs4'
 
 SUMMERNOTE_CONFIG = {
@@ -90,7 +90,7 @@ SUMMERNOTE_CONFIG = {
 
         },
 }
-
+'''
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
