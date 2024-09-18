@@ -48,7 +48,8 @@ INSTALLED_APPS = [
     'taggit',
     'captcha',
     'robots',
-    'blog'
+    'blog',
+    'accounts'
 ]
 
 #sites framwork
